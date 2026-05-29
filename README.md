@@ -42,6 +42,7 @@ Then open <http://127.0.0.1:5000>.
 | `build_game_documents.py` | Builds one game-level document + metadata per game |
 | `build_chroma_index.py` | Embeds the documents and writes the ChromaDB index |
 | `test_chroma_query.py` | Standalone script to sanity-check raw vector retrieval |
+| `recommender_system.ipynb` | Jupyter Notebook for initial data exploration + testing |
 | `app.py` | Necessary for running the project, unmodified from the baseline |
 | `pyproject.toml` | Necessary for running the project, unmodified from the baseline |
 | `steam_sqlite.py` | Necessary for running the project, unmodified from the baseline |
